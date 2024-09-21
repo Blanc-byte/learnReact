@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navigation li{
+    list-style: none;
+    cursor: pointer;
+}
+.header img:hover{
+    animation: spin-react-logo infinite 20s linear;
+}
+@keyframes spin-react-logo{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
